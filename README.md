@@ -111,28 +111,6 @@ use map() for transformation, filter() for selection, and list comprehension for
 8.sort:Modify the original menu (In-place)
 sorted:It does not modify the original, but rather returns a new, arranged list
 
----
-
-##problem solving
-
-
-n, k = map(int, input().split())
-
-
-scores = list(map(int, input().split()))
-
-
-threshold_score = scores[k-1]
-
-count = 0
-for s in scores:
-    if s >= threshold_score and s > 0:
-        count += 1
-    else:
-     
-        break
-
-print(count)
 
 
 
